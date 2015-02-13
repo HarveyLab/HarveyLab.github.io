@@ -1,0 +1,265 @@
+/* Global styles */
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+body{
+    background-color: #ececec;
+}
+
+div {
+    background-color: white;
+    padding: 0;
+}
+
+p {
+	margin: 0;
+    padding: 0;
+}
+
+p.bodyText {
+	margin-bottom: 0.7em; /* Space between paragraphs */
+}
+
+div#allContent{
+    background-color: #ececec;
+    max-width: 560px;
+	margin: 0 auto; /* centers the content column */
+}
+
+div.section{
+	background-color: #ececec;
+	-moz-box-shadow: 0px 1px 4px #898984;
+	-webkit-box-shadow: 0px 1px 4px #898984;
+	box-shadow: 0px 1px 4px #898984;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#898984')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#898984');
+	
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+	
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+	
+	visibility: hidden; /* Revealed programmatically after loading. */
+}
+
+div.sectionHeading{
+	background-color: #ececec;
+	color: #555555;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+	
+    padding-right: 20px;
+    padding-left: 20px;
+	
+	visibility: hidden; /* Revealed programmatically after loading. */
+}
+
+a:link {
+    text-decoration: none;
+	color: #555555;
+}
+
+a:visited {
+    text-decoration: none;
+	color: #777777;
+}
+
+a:hover {
+    text-decoration: underline;
+	color: #777777;
+}
+
+/* Useful classes */
+.hidden {
+	display: none;
+}
+
+/* Header styles */
+div.header#main {
+    background-color: #ececec;
+	
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+	
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+div.footer#main{
+    background-color: #ececec;
+	text-align: center;
+	
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+	
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+	
+	font-size: 80%;
+}
+
+p#headerTitle {
+	font-size: 400%;
+	margin-left: -4px; /* Offset kerning to match smaller font in subtitle */
+	line-height: 83%;
+    margin-bottom: 0px;
+}
+
+p#headerAddress {
+	font-size: 80%;
+}
+
+/* General section styles */
+h1 {
+	font-size: 200%;
+	font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+
+/* card STYLE*/
+/* A card is the container for all content. A card, by default, has no padding, and a bottom margin only at the bottom, to create spacing between cards..*/
+div.card {
+	clear: both;
+	height:auto;
+	overflow:hidden;
+	
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+	
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+		
+	-webkit-box-shadow: inset 0 -2px 2px -2px #898984;;
+    -moz-box-shadow: inset 0 -2px 2px -2px #898984;;
+    box-shadow: inset 0 -2px 2px -2px #898984;;
+    
+} 
+
+div.card:last-child {
+    margin-bottom: 0px;
+	-webkit-box-shadow: inset 0 0px 0px 0px #898984;;
+    -moz-box-shadow: inset 0 -0px 0px 0px #898984;;
+    box-shadow: inset 0 -0px 0px 0px #898984;;
+} 
+
+div.card.publication {
+	min-height: 180px;
+} 
+
+div.card.publication:last-child {
+	min-height: 0px;
+} 
+
+/* Image styles */
+img.thumbnail {
+	/* display: inline-block; */
+	width: 170px;
+	float: right;
+	margin-left: 13px;
+	margin-bottom: 6px;
+	margin-top: 3px;
+}
+
+div.person > img.thumbnail{
+	margin-bottom: 0px; /* Need to change this if we add peopel descriptions! */
+}
+
+/* Publication- and people-related styles */
+p.publicationTitle, p.personName{
+	font-weight: bold;
+	max-width: 337px;
+}
+
+p.personText{
+    margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+p.publicationCitation, p.personTitle, p.personEmail{
+	font-size: 85%;
+	color: #909090;
+}
+
+p.personEmail a:link, p.publicationCitation a:link {
+	color: #909090;
+}
+
+p.publicationCitation{
+    margin-bottom: 5px;
+	max-width: 337px;
+}
+
+span.buttonShowMore,
+span.buttonShowLess,
+span.buttonPdf {
+	text-transform: uppercase;
+	font-size: 75%;
+	color: #909090;
+    font-weight: normal;
+	margin-left: 0px;
+	white-space: nowrap; /* Keep it on a single line if there's several words. */
+	cursor: pointer; /* Make cursor look like it's a link. */
+}
+
+/* Make sure there's a space between the button and the previous content. */
+span.buttonShowMore:before, 
+span.buttonShowLess:before{
+    content: "\0020";
+}
+
+/* Enforce color even though the buttons are also links. */
+span.buttonPdf > a:link{
+	color: #909090;
+}
+
+/* Settings for narrow screens */
+@media (max-width: 500px) {
+	div#allContent{
+		font-size: 90%;
+	}
+}
+@media (max-width: 460px) {
+	div.card.publication {
+		min-height: 0px;
+	} 
+	
+	p.publicationTitle, p.personName{
+		clear: both;
+	}
+	
+	img.thumbnail {
+		width: 100%;
+		margin-bottom: 5px;
+		margin-left: 0px;
+		float: left;
+	}
+	
+	div.person > img.thumbnail{
+		margin-bottom: 5px; /* Need to change this if we add peopel descriptions! */
+	}
+}
