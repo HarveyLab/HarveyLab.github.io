@@ -138,6 +138,30 @@ $(document).ready(function() {
                     "visibility": "visible"
                 }).hide().fadeIn(200);
             }
+
+            var current = $(card).find('img')[0]
+            var target = $(card).find('img')[1]
+            var overlay = $(card).find('.mouseover')
+            var width = $(current).width()
+            var left = $(card).position().left + $(card).width() - $(current).width()
+
+            $(card).find('video').css({
+                width: width,
+                height: width,
+                left: left + 15
+            })
+
+            $($(card).find('.overlay')).css({
+                left: left + 2
+            })
+
+            $(target).mouseover(function () {
+                overlay.css('opacity', 1)
+            })
+            $(target).mouseout(function () {
+                overlay.css('opacity', 0)
+            })
+            
         });
     });
 
