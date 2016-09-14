@@ -65,6 +65,13 @@ div.sectionHeading{
 	visibility: hidden; /* Revealed programmatically after loading. */
 }
 
+div#alumni{
+	img {
+		-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+		filter: grayscale(100%);
+	}
+}
+
 a:link {
     text-decoration: none;
 	color: #555555;
