@@ -127,7 +127,7 @@ $(document).ready(function() {
         $.get(url, function(data) {
             cardSetup(card, data);
 
-            // If this is the last card in it's section, make the entrie section visible:
+            // If this is the last card in its section, make the entrie section visible:
             if ($(card).is(':last-child')) {
                 thisSection = $(card).closest("div.section");
 				thisSection.css({
