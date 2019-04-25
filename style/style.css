@@ -266,6 +266,6 @@ span.buttonPdf > a:link{
 	}
 	
 	div.person > img.thumbnail{
-		margin-bottom: 5px; /* Need to change this if we add peopel descriptions! */
+		margin-bottom: 10px; /* Changed this, because we've added bios */
 	}
 }
