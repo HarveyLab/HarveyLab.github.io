@@ -217,7 +217,7 @@ p.personEmail a:link, p.publicationCitation a:link {
 
 p.publicationCitation{
     margin-bottom: 5px;
-	max-width: 337px;
+	/*max-width: 337px;*/
 }
 
 span.buttonShowMore,
