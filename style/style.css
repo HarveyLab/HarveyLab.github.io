@@ -173,7 +173,7 @@ div.card:last-child {
 } 
 
 div.card.publication {
-	min-height: 180px;
+	/*min-height: 180px;*/
 } 
 
 div.card.publication:last-child {
