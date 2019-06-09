@@ -198,7 +198,7 @@ div.person > img.thumbnail{
 /* Publication- and people-related styles */
 p.publicationTitle, p.personName{
 	font-weight: bold;
-	max-width: 337px;
+	/*max-width: 337px;*/
 }
 
 p.personText{
