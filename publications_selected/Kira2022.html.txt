@@ -1,0 +1,25 @@
+<img class="thumbnail" src="img/Kira2022.png" id="Kira2022">
+
+<p class="publicationTitle">A distributed and efficient population code of mixed selectivity neurons for flexible navigation decisions</p>
+
+<p class="publicationCitation">
+	<a href="https://www.biorxiv.org/content/10.1101/2022.04.10.487349v1">
+	Shinichiro Kira, Houman Safaai, Ari S. Morcos, Stefano Panzeri, Christopher D Harvey. (2022). bioRxiv 2022.04.10.487349
+	</a>
+</p>
+
+<span class="buttonPdf" id="Kira2022"><a href="pdf/Kira2022.pdf">Download PDF</a></span>
+
+<div class="less">
+	<span class="buttonShowMore" id="Kira2022">Show abstract</span>
+</div>
+
+<div class="more">
+	<p class="publicationAbstract">
+	Decision-making requires flexibility to rapidly switch sensorimotor associations depending on behavioral goals stored in memory. We identified cortical areas and neural activity patterns that mediate this flexibility during virtual-navigation, where mice switched navigation toward or away from a visual cue depending on its match to a remembered cue. An optogenetics screen identified V1, posterior parietal cortex (PPC), and retrosplenial cortex (RSC) as necessary for accurate decisions. Calcium imaging revealed neurons that can mediate rapid sensorimotor switching by encoding a conjunction of a current and remembered visual cue that predicted the mouse’s navigational choice from trial-to-trial. Their activity formed efficient population codes before correct, but not incorrect, choices. These neurons were distributed across posterior cortex, even V1, but were densest in RSC and sparsest in PPC. We propose the flexibility of navigation decisions arises from neurons that mix visual and memory information within a visual-parietal-retrosplenial network, centered in RSC.<span class="buttonShowLess" id="Kira2022">Hide abstract</span>
+	</p>
+</div>
+
+
+
+
